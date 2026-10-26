@@ -4,7 +4,7 @@ A production-grade ELT (Extract, Load, Transform) data engineering pipeline buil
 
 ---
 
-## 📈 Pipeline Architecture
+##  Pipeline Architecture
 
 The data travels through a robust two-tier structural staging and optimization architecture:
 
@@ -26,7 +26,7 @@ The data travels through a robust two-tier structural staging and optimization a
 
 ---
 
-## 🛠️ Data Engineering Core Phases
+##  Data Engineering Phases
 
 ### Phase 1: Web Scraping & Ingestion
 The asynchronous scraper (`country_spider.py`) bypasses root-domain structural redirects by targeting exact directory routes.
@@ -53,7 +53,7 @@ The production layer executes targeted SQL transformations to scrub out raw layo
 
 ---
 
-## 🚀 Execution & Verification Instructions
+## Execution & Verification Instructions
 
 ### 1. Initialize Project Dependencies
 Ensure all matching runtime framework components are established locally:
